@@ -6,15 +6,6 @@
 #     b. Apply k-means algorithm on the PCA result and report your observation if the silhouette score has improved or not?
 #     c. Perform Scaling+PCA+K-Means and report performance
 
-import pandas as pd
-from sklearn.decomposition import PCA
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
-from sklearn.cluster import KMeans
-from sklearn import metrics
-import warnings
-warnings.filterwarnings("ignore")
-
 # Reading dataset CC.csv
 import pandas as pd
 from sklearn.decomposition import PCA
@@ -23,6 +14,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.cluster import KMeans
 from sklearn import metrics
 from sklearn.linear_model import LogisticRegression
+
+import warnings
+warnings.filterwarnings("ignore")
 
 # Load dataset
 df = pd.read_csv('CC GENERAL.csv')

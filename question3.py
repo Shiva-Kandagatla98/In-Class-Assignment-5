@@ -39,8 +39,6 @@ print(data)
 
 # 4. Briefly identify the difference between PCA and LDA.
 
-# PCA (Principal Component Analysis) and LDA (Linear Discriminant Analysis) are both linear transformation techniques used for dimensionality reduction. However, they differ in their objectives and applications.
-
 # PCA is an unsupervised technique that seeks to reduce the dimensionality of a dataset while preserving most of its variance. It does so by transforming the data into a new coordinate system where the new axes (principal components) are orthogonal and ordered by the amount of variance they capture. PCA is often used for data visualization, data compression, and feature extraction.
 
 # LDA, on the other hand, is a supervised technique that seeks to find a linear combination of features that maximizes the separation between different classes of data. It does so by finding a projection that maximizes the between-class scatter and minimizes the within-class scatter. LDA is often used for classification and feature extraction.
