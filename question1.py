@@ -6,7 +6,7 @@
 #     b. Apply k-means algorithm on the PCA result and report your observation if the silhouette score has improved or not?
 #     c. Perform Scaling+PCA+K-Means and report performance
 
-# Reading dataset CC.csv
+
 import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
